@@ -1,0 +1,1 @@
+This code demonstrates a common error in Rust related to mutable references.  Multiple mutable references to the same data within the same scope will cause undefined behavior.  The solution involves using techniques like interior mutability or refactoring the code to avoid this situation.
